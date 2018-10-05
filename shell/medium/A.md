@@ -14,9 +14,9 @@ $ cat words.txt
 
 the day is sunny the the
 the sunny is is
+```
 Your script should output the following, sorted by descending frequency:
-$ yourcommand words.txt
-
+```
 the 4
 is 3
 sunny 2
