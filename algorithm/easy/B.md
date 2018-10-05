@@ -16,14 +16,14 @@ Now given a string represented by several bits, return whether the last characte
 Input: 
 bits = [1, 0, 0]
 Output: True
+```
 Explanation: 
 The only way to decode it is two-bit character and one-bit character. So the last character is one-bit character.
-```
 #### Example 2:
 ```
 Input: 
 bits = [1, 1, 1, 0]
 Output: False
+```
 Explanation: 
 The only way to decode it is two-bit character and two-bit character. So the last character is NOT one-bit character.
-```
