@@ -28,5 +28,5 @@ A basic database schema to model the problem is provided in the [DB](DB.md) file
 
 Bonus 
 - Github project
-- Wrap application into electron application
-- The application uses OpenID authentication by using Microsoft Identity Platform. 
+- Wrap application into electron application. Electron is a js framework to build cross-platforms desktop applications: https://www.electronjs.org/
+- The application uses OpenID authentication by using Microsoft Identity Platform, or a social login of choice
