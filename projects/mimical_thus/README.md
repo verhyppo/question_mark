@@ -26,7 +26,15 @@ Allowed values for Behaviours are listed in [Behaviors](Behaviours.md) file and 
 
 A basic database schema to model the problem is provided in the [DB](DB.md) file.
 
-Bonus 
+## Outcomes
+
+Deliverables expected
+
+- Requirements as described above are satisfied
+
+Feel free to provide diagrams or tests (integration or unit) to describe how do you plan to achieve the results.
+
+## Bonus 
 - Github project
 - Wrap application into electron application. Electron is a js framework to build cross-platforms desktop applications: https://www.electronjs.org/
 - The application uses OpenID authentication by using Microsoft Identity Platform, or a social login of choice
