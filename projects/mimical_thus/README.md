@@ -12,7 +12,7 @@ Each user is able to insert its data
 - email
 - birthdate
 - list of behaviour and value
-- list of interests and value
+- list of passions and value
 
 during the registration process and then cannot update them anymore.
 
@@ -20,7 +20,7 @@ Each user can select up to 5 behaviors and 5 passions, with a total of 10 entrie
 
 Once done so, the users are then provided with a list of paginated results of the most similar people by following this requirements:
 - first, people with the highest number behaviors in common with the closest value
-- second, people with the highest number interests in common with the closest value
+- second, people with the highest number passions in common with the closest value
 
 The default number of result is 5 but the user can select the number of results to be displayed up to 20, with a step of 5, and navigate to see other people.
 
@@ -32,7 +32,7 @@ The list provided, allows the user to see other users information:
 
 Allowed values for Behaviours are listed in [Behaviors](Behaviours.md) file and Passions are listed in [Passions](Passions.md)
 
-A basic database schema to model the problem is provided in the [DB](DB.md) file.
+A basic, not comprehensive, database schema to model the problem is provided in the [DB](DB.md) file, feel free to modify it.
 
 ## Outcomes
 
@@ -47,3 +47,4 @@ Feel free to provide diagrams or tests (integration or unit) to describe how do 
 ## Bonus 
 - Github project
 - Authentication via OpenID authentication by using Microsoft Identity Platform or other social login of choice
+- Liquibase Integration
