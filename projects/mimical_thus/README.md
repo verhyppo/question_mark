@@ -6,7 +6,15 @@ The system we are going to create is called *MimicalThus* and allows users to se
 - similar behaviour
 - passions and hobbies
 
-Each user is able to insert its data during the registration process and then, cannot update them anymore.
+Each user is able to insert its data
+- name
+- surname
+- email
+- birthdate
+- list of behaviour and value
+- list of interests and value
+
+during the registration process and then cannot update them anymore.
 
 Each user can select up to 5 behaviors and 5 passions, with a total of 10 entries per user, and can assign a value to each of its entries from -10 to +10, where -10 means that hates that behavior or passion and +10 means that loves them very much
 
@@ -29,12 +37,13 @@ A basic database schema to model the problem is provided in the [DB](DB.md) file
 ## Outcomes
 
 Deliverables expected
-
 - Requirements as described above are satisfied
-
+- (Basic) Authentication is in place
+Postman collection to:
+- retrieve paginated list of similar users
+- registration process
 Feel free to provide diagrams or tests (integration or unit) to describe how do you plan to achieve the results.
 
 ## Bonus 
 - Github project
-- Wrap application into electron application. Electron is a js framework to build cross-platforms desktop applications: https://www.electronjs.org/
-- The application uses OpenID authentication by using Microsoft Identity Platform, or a social login of choice
+- Authentication via OpenID authentication by using Microsoft Identity Platform or other social login of choice
