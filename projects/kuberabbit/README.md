@@ -61,7 +61,8 @@ RabbitMQ exposes Management APIs, but you can also take the advantage of the `ra
   - how to execute
   - how to install
 - Use Github as CVS
-- show knowledge of using [Operator Framework](https://sdk.operatorframework.io) or similar frameworks
+- show knowledge of using [Operator Framework](https://sdk.operatorframework.io) or similar frameworks (PREFERRED)
+  - alternatively, you can propose other solutions to manage this same problem, elaborating the approach and showing a practical example
 
 ## Bonus
 - full CIntegration (build and package) process for the operator using the tools of your preference (github actions, travis, ...)
