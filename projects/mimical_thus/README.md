@@ -39,9 +39,10 @@ A basic, not comprehensive, database schema to model the problem is provided in 
 Deliverables expected
 - Requirements as described above are satisfied
 - (Basic) Authentication is in place
-Postman collection to:
-- retrieve paginated list of similar users
-- registration process
+- Postman collection to:
+  - retrieve paginated list of similar users
+  - registration process
+
 Feel free to provide diagrams or tests (integration or unit) to describe how do you plan to achieve the results.
 
 ## Bonus 
